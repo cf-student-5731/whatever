@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<link rel='stylesheet' type='text/css' href='../../css/style.css'>
+<link rel='stylesheet' type='text/css' href='./css/contact_style.css'>
+<title>Code Review 01</title>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<img src="../../image/logo.png" alt="logo">
+		</div>
+	</header>
+
+	<nav>
+
+		<ul>
+			<li><a href="../../index.html">Home</a></li>
+			<li><a href="../../projects.html">Projects</a></li>
+			<li><a href="../contact/contact.html">Contact</a></li>
+		</ul>
+	</nav>
+  <div id="my_contact-form">
+    <form>
+      <p><label for="firstname">First Name</label></p>
+      <input type="text" name="name" id="firstname" placeholder="Max or Maria">
+      <p><label for="lastname">Last Name</label></p>
+      <input type="text" name="name" id="lastname" placeholder="Muster">
+        <p>Gender:
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other"></p>
+
+      <p><label for="country">Country</label></p>
+      <select id="country" name="country">
+        <option value="austria">Austria</option>
+        <option value="germany">Germany</option>
+        <option value="switzerland">Switzerland</option>
+      </select>
+    <p><label for="subject">Your message</label></p>
+    <textarea id="subject" name="subject" placeholder="Enter your message here..." style="height:150px"></textarea>
+    </form>
+      <input type="submit" value="Submit">
+  </div>
+  <br><br><br> <!-- inserting 3 empty lines before footer -->
+  <footer>
+		<div id="logo_small">
+			<img src="../../image/logo.png" alt="logo">
+		</div>
+		<div>&copy by Team6 2020</div>
+
+		<div></div>
+	</footer>
+
+</body>
+</html>

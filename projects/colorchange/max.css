@@ -1,0 +1,79 @@
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#project {
+  margin-bottom: 2%;
+  background-color: lightgrey;
+  margin: 8px;
+  width: 80%;
+  padding: 2%;
+  margin-right: 20%;
+}
+
+#project h1 {
+  margin-bottom: 5%;
+}
+
+#colorChangeButton, #crazyButton {
+  border-radius: 1%;
+  font-size: 1.5vw;
+  margin: 2%;
+}
+
+#colorChangeButton#crazyButton:hover {
+  -webkit-box-shadow: 0px 0px 22px 0px  #3E3D3E;
+          box-shadow: 0px 0px 22px 0px  #3E3D3E;
+}
+
+#explanation {
+  margin-top: 10%;
+}
+
+#explanation p {
+  margin-bottom: 2%;
+}
+
+#explanation img {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#backtowhite {
+  margin-top: 5%;
+}
+
+#navbar {
+  height: 300px;
+}
+
+.flex {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+iframe {
+  width: 100%;
+}
+
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 254%;
+}
+
+#backtowhite {
+  margin: 1%;
+}
+/*# sourceMappingURL=max.css.map */

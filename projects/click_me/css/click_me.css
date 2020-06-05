@@ -1,0 +1,29 @@
+body {
+  background-color: #C0C0C0;
+}
+
+#clickme {
+  width: 180px;
+  height: 40px;
+  position: absolute;
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 18pt;
+  border-radius: 4px;
+}
+
+#play_area {
+  min-height: 500px;
+}
+
+#navbar_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=click_me.css.map */

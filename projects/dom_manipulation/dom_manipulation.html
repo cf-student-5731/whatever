@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/dom_manipulation.css">
+	<title>DOM Manipulation</title>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<img src="../../image/logo.png" alt="logo">
+		</div>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="../../index.html">Home</a></li>
+			<li><a href="../../projects.html">Projects</a></li>
+			<li><a href="../contact/contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	
+	<!-- ------------------------------------------------->
+	<div id="navbar_wrapper"> <!-- navbar wrapper -->
+		<div id="navbar">
+			<iframe height= 300px src="../navbar.html" scrolling="no" frameborder="0"></iframe>
+		</div>
+		<div id="main_wrapper">
+			<h1>Creating HTML Elements in Java Script</h1>
+			<div id = "dom_manipulation_wrapper">
+				<div id = "left"> <!-- left -->
+					<h2>The Power of Java Script</h2>				
+					<p>Since Websites became more dynamic, simple HTML does not cover all the demands that developers have. HTML is the skeleton, CSS the Make-UP and JavaScript the muscles. Since it allows us to manipulate the DOM Elements in a dynamical way, it is possible to extend any HTML code by adding some Hocus Pocus in Java. Classical programming elements like Arrays and loops are available in Java Script which enables the developer to add different dynamict to their websites. The power ov Java Script is not only in dynamics, since there are many Data-Management tools like JSON. This makes Java Script the choice number one scripting language for borwser sided programming.</p>
+					<div id="dom-tree">
+						<img src="./img/dom-tree.jpg" alt="DOM tree">
+					</div>
+					<p><a href="https://www.javascript-kurs.de/javascript-dom-eingreifen.htm">Java Script Kurs</a></p>
+				
+
+				</div> <!-- left -->
+
+
+
+				<div> <!-- right -->
+					<div id = "right">
+						<p>Please post your comment here!</p>
+						<textarea id="input_box" cols="100" rows="15"></textarea>
+					</div>
+
+
+					<div>
+						<button id = "send_button">Post</button>
+					</div>
+
+					<div id='output'>
+						<p></p>
+					</div>
+				</div> <!-- right -->
+			</div> <!-- bubble_sort_wrapper -->		
+			<div id="source_code">
+				<img src="./img/dom_manipulation.png" alt="DOM manipulation code">
+			</div>	
+		</div>
+	</div>
+
+	<footer>
+		<div id="logo_small">
+			<img src="../../image/logo.png" alt="logo">
+		</div>
+		<div>&copy by Team6 2020</div>
+		<div></div>
+	</footer>
+
+	<script src="./js/dom_manipulation.js"></script>
+</body>
+</html>
